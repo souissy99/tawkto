@@ -8,6 +8,10 @@
         </template>
         </v-breadcrumbs>
         <v-card class="text-center" outlined>
+          <v-container class="top-right-icon">
+            <v-icon size="24px" color="green">$note</v-icon>
+            <span>{{ category.totalArticle }}</span>
+          </v-container>
           <v-icon class="mt-10" size="58px" color="green">${{ category.icon }}</v-icon>
           <v-card-title class="text-h5 font-weight-bold justify-center">{{ category.title }}</v-card-title>
           <v-card-subtitle>Updated {{ timeSinceUpdate(category.updatedOn) }}</v-card-subtitle>
@@ -87,4 +91,9 @@ export default {
 </script>
 
 <style lang="scss">
+
+    .top-right-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
 </style>
