@@ -28,7 +28,7 @@
 			"updatedOn": "2019-12-16T14:11:04.658Z",
 			"enabled": true,
 			"order": 3,
-			"icon": "deskop",
+			"icon": "desktop",
 			"totalArticle" : 20
 		}, {
 			"id" : "cat4",
@@ -68,7 +68,7 @@
 			"updatedOn": "2019-12-19T09:56:48.796Z",
 			"enabled": true,
 			"order": 7,
-			"icon": "shopping-cart",
+			"icon": "cart",
 			"totalArticle" : 5
 		}
 	],
